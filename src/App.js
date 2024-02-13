@@ -47,7 +47,7 @@ function App() {
           aria-valuemax="100"
         >
           <div className="progress-bar" style={{width: `${progress}%`}}>
-            {progress}%
+            {progress}
           </div>
         </div>
 
