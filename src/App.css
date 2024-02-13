@@ -37,3 +37,39 @@
 
 
 
+@media (max-width:450px) {
+  #Counter button{
+    /* min-width: 120px; */
+    padding: 7px 20px;
+    margin: 5px;
+    font-size: 13px;
+    background-color: #282c34;
+    /* color: white; */
+    border: none;
+  }
+  .progress{
+    width: 300px;
+  }
+  .heading{
+    font-size: 45px;
+  }
+  }
+
+  @media (max-width:320px) {
+    #Counter button{
+      /* min-width: 120px; */
+      padding: 7px 15px;
+      margin: 5px;
+      font-size: 13px;
+      background-color: #282c34;
+      /* color: white; */
+      border: none;
+    }
+    .progress{
+      width: 200px;
+    }
+    .heading{
+      font-size: 30px;
+    }
+    
+  }
